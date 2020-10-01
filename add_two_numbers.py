@@ -1,7 +1,9 @@
-class Node:
-    """
-    Build your linked list node class here.
-    """
+def add(a , b):
+    '''This function adds two Numbers'''
+    c = a + b
+    return c
 
-def add_two_numbers(num1: Node, num2: Node) -> Node:
-    pass
+Num1 = float(input('Enter Your First Number --> '))
+Num2 = float(input('Enter Your Second Number'--> ))
+
+add(Num1, Num2)
